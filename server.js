@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 let corsOptions = {
-    origin: "bw6b8dp9wp9x49hlsbht-mysql.services.clever-cloud.com"
+    origin: "http://bw6b8dp9wp9x49hlsbht-mysql.services.clever-cloud.com"
 };
 
 app.use(cors(corsOptions));
