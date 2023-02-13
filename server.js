@@ -1,8 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const http = require('http');
-const myApp = require('./app.js');
 
 const app = express();
 
@@ -29,10 +27,7 @@ app.get("/", (req, res) => {
   });
   
   // set port, listen for requests
-const PORT = process.env.PORT || 8080;
-const server = http.createServer(myApp);
-app,server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
-});
-
-// server.listen(PORT);
+  const PORT = process.env.PORT || 8080;
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}.`);
+  });

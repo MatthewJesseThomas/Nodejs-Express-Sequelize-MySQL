@@ -1,5 +1,5 @@
 module.exports = {
-    HOST: "bw6b8dp9wp9x49hlsbht-mysql.services.clever-cloud.com",
+    HOST: "http://bw6b8dp9wp9x49hlsbht-mysql.services.clever-cloud.com",
     USER: "u0vkvna7hdtvystx",
     PASSWORD: "iwWzapGFNL8uH0dheJzR",
     DB: "bw6b8dp9wp9x49hlsbht",
